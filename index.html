@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>IMMAPA Telkom University</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./src/bootstrap/css/bootstrap.min.css">
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="./src/carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="./src/carousel/assets/owl.theme.default.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- 👇 css code file 👇 -->
+    <link rel="stylesheet" href="./src/style/global.css"/>
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <div class="d-flex justify-content-center align-items-center flex-column">
+                <img src="./src/assets/images/logo-shadow.png" alt="logo-immapa" width="70" class="d-inline-block align-text-top">
+                <span>IMMAPA</span>
+            </div>
+          </a>
+        </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+
+    <!-- Banner -->
+        <div class="owl-carousel">
+            <div class="item" style="background-image: url('./src/assets/images/banner-1.jpg');">
+            </div>
+            <div class="item" style="background-image: url('./src/assets/images/banner-2.jpg');">
+            </div>
+            <div class="item" style="background-image: url('./src/assets/images/banner-3.jpeg');">
+            </div>
+        </div>
+    <!-- Akhir Banner -->
+
+
+    <!-- Penjelasan IMMAPA -->
+    <div class="penjelasan-immapa">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 d-flex justify-content-center">
+                    <img src="./src/assets/images/logo-lg.png" alt="logo-immapa" width="300">
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <h1 class="title-section">Apa itu IMMAPA?</h1>
+                    <p class="text-content">Ikatan Mahasiswa Maluku, dan Papua atau IMMAPA merupakan unit kegiatan mahasiswa dibawah naungan Telkom University yang bertujuan menjadi wadah atau rumah untuk para mahasiswa dari Indonesia Timur untuk bersilahturahmi dan menjalin hubungan kekeluargaan dengan yang lain. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Penjelasan IMMAPA -->
+
+
+    <!-- Visi & Misi -->
+    <div class="visi-misi">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 visi">
+                    <h1 class="title-section">VISI</h1>
+                    <p class="text-content">Menjadi organisasi yang bermanfaat bagi anggota, daerah, kampus, dan negara dengan menjunjung rasa kekeluargaan, kebersamaan dan kebudayaan Maluku dan Papua.</p>
+                </div>
+                <div class="col-sm-12 col-md-6 misi">
+                    <h1 class="title-section">MISI</h1>
+                    <div class="text-content">
+                        <ol>
+                            <li>Menjadi wadah silahturahmi bagi mahasiswa Maluku dan Papua yang berada di Telkom University.</li>
+                            <li>Menjadi wadah pengembangan diri dan intelektual serta melestarikan budaya Maluku dan Papua bagi mahasiswa Maluku dan Papua yang berada di Telkom University.</li>
+                            <li>Menjadi sarana menjalin hubungan yang baik dengan organisasi daerah-daerah lain yang tidak bertentangan dengan AD/ART dan ketentuan hukum yang berlaku.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Visi & Misi -->
+
+
+    <!-- Struktur Organisasi -->
+    <div class="struktur-organisasi">
+        <h1 class="title-section text-center">Struktur Organisasi</h1>
+    </div>
+    <!-- Akhir Struktur Organisasi -->
+
+
+    <!-- Kontak -->
+    <!-- Akhir Kontak -->
+
+
+    <!-- Footer -->
+    <!-- Akhir Footer -->
+
+    <!-- JQuery -->
+    <script src="./src/js/jquery.js"></script>
+    <!-- Owl Carousel -->
+    <script src="./src/carousel/owl.carousel.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="./src/bootstrap/js/bootstrap.min.js"></script>
+    <!-- 👇 javascript code file 👇 -->
+    <script src="./src/js/index.js"></script>
+
+    <script>
+
+        $(document).ready(() => {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                items: 1,
+                mouseDrag: true, 
+                toucheDrag: true,
+                autoplay: true,
+                autoplayTimeout: 3000
+            });
+        })
+
+    </script>
+</body>
+</html>

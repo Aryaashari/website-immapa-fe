@@ -1,0 +1,98 @@
+/*? global clearing */
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --light: #f7f7f7;
+    --dark: #191919;
+    --cream: #ECDBBA;
+    --orange: #C84B31;
+    --blue: #2D4263;
+    --dark-opacity: rgba(25,25,25,.6);
+    --light-opacity: rgba(247,247,247,.6);
+    --gap-primary: 16px;
+    --gap-secondary: 8px;
+}
+
+body {
+    background-color: var(--dark);
+    color: var(--light);
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.title-section {
+    font-size: 35px;
+    font-family: 'Averia Serif Libre', 'Open Sans';
+}
+
+.text-content {
+    font-size: 16px;
+    color: var(--light-opacity);
+    line-height: 30px;
+}
+
+
+
+.navbar {
+    background-color: var(--dark) !important;
+}
+
+.navbar a {
+    margin: 0 auto;
+}
+
+.navbar span {
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 10px;
+    font-family: 'Averia Serif Libre', 'Open Sans';
+}
+
+
+.owl-carousel .item {
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    position: relative;
+}
+
+.owl-carousel .item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.penjelasan-immapa {
+    margin-top: 100px;
+}
+
+.penjelasan-immapa .text-content {
+    margin-top: 30px;
+}
+
+
+.visi-misi {
+    background-color: var(--cream);
+    padding: 90px;
+    margin-top: 100px;
+}
+
+.visi-misi .title-section {
+    color: var(--dark);
+}
+
+.visi-misi .text-content {
+    color: var(--dark-opacity);
+}
