@@ -31,6 +31,11 @@ body {
     font-family: 'Averia Serif Libre', 'Open Sans';
 }
 
+.subtitle-section {
+    font-size: 28px;
+    font-family: 'Averia Serif Libre', 'Open Sans';;
+}
+
 .text-content {
     font-size: 16px;
     color: var(--light-opacity);
@@ -55,14 +60,14 @@ body {
 }
 
 
-.owl-carousel .item {
+.banner .owl-carousel .item {
     background-position: center;
     background-size: cover;
     height: 650px;
     position: relative;
 }
 
-.owl-carousel .item::after {
+.banner .owl-carousel .item::after {
     content: "";
     position: absolute;
     top: 0;
@@ -95,4 +100,14 @@ body {
 
 .visi-misi .text-content {
     color: var(--dark-opacity);
+}
+
+
+
+
+.struktur-organisasi .card {
+    width: 280px;
+    background-color: transparent;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.44) 0px 3px 8px;
 }
