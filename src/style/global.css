@@ -83,6 +83,10 @@ body {
     margin-top: 100px;
 }
 
+.penjelasan-immapa img {
+    width: 300px;
+}
+
 .penjelasan-immapa .text-content {
     margin-top: 30px;
 }
@@ -103,7 +107,9 @@ body {
 }
 
 
-
+.struktur-organisasi {
+    margin-top: 100px;
+}
 
 .struktur-organisasi .card {
     width: 280px;
