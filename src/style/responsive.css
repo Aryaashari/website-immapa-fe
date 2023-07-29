@@ -1,5 +1,5 @@
 /* // X-Small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
+/* @media (max-width: 575.98px) {
     .title-section {
         font-size: 24px;
     }
@@ -36,6 +36,103 @@
         margin-top: 50px;
     }
 
+
+
+    .kegiatan {
+        margin-top: 50px;
+    }
+
+    .kegiatan .row .thumbnail {
+        order: 0;
+    }
+
+    .kegiatan .row .text {
+        order: 1;
+    }
+
+    .kegiatan .row .text .subtitle-section {
+        text-align: left !important;
+        margin-top: 20px;
+    }
+
+    .kegiatan .row .text .text-content {
+        text-align: left !important;
+    }
+
+
+
+    .struktur-organisasi {
+        margin-top: 50px;
+    }
+
+    .struktur-organisasi .card {
+        width: 230px;
+    }
+} */
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .title-section {
+        font-size: 24px;
+    }
+
+    .subtitle-section {
+        font-size: 18px;
+    }
+    
+    .text-content {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+
+
+
+    .banner .owl-carousel .item {
+        height: 400px;
+    }
+
+
+
+    .penjelasan-immapa {
+        margin-top: 20px;
+    }
+    .penjelasan-immapa img {
+        width: 200px;
+        margin-bottom: 15px;
+    }
+
+
+    .visi-misi {
+        padding: 20px 5px;
+        margin-top: 50px;
+    }
+
+
+
+    .kegiatan {
+        margin-top: 50px;
+    }
+
+    .kegiatan .row .thumbnail {
+        order: 0;
+    }
+
+    .kegiatan .row .text {
+        order: 1;
+    }
+
+    .kegiatan .row .text .subtitle-section {
+        text-align: left !important;
+        margin-top: 20px;
+    }
+
+    .kegiatan .row .text .text-content {
+        text-align: left !important;
+    }
+
+
+
     .struktur-organisasi {
         margin-top: 50px;
     }
@@ -44,9 +141,6 @@
         width: 230px;
     }
 }
-
-/* // Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {  }
 
 /* // Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {  }
