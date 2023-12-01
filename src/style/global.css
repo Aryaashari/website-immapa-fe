@@ -131,3 +131,19 @@ body {
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.44) 0px 3px 8px;
 }
+
+
+.kontak {
+    background-color: var(--cream);
+    padding: 90px;
+    margin-top: 100px;
+}
+
+.kontak .title-section {
+    color: var(--dark);
+}
+
+.kontak img {
+    margin-right: 20px;
+    margin-top: 20px;
+}
